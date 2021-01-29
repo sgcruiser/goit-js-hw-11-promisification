@@ -47,7 +47,7 @@ delay(1000).then(logger); // Resolved after 1000ms
 delay(1500).then(logger); // Resolved after 1500ms
 ```
 
-### Задание 2.2
+#### Задание 2.2
 
 Перепиши функцию `toggleUserState()` так, чтобы она не использовала
 callback-функцию `callback`, а принимала всего два параметра `allUsers` и
@@ -84,7 +84,7 @@ toggleUserState(users, 'Mango').then(logger);
 toggleUserState(users, 'Lux').then(logger);
 ```
 
-## Задание 2.3
+#### Задание 2.3
 
 Перепиши функцию `makeTransaction()` так, чтобы она не использовала
 callback-функции `onSuccess` и `onError`, а принимала всего один параметр
